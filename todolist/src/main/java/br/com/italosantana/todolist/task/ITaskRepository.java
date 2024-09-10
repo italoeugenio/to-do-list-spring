@@ -1,4 +1,8 @@
 package br.com.italosantana.todolist.task;
 
-public class ITaskRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.UUID;
+
+public interface ITaskRepository extends JpaRepository<TaskModel, UUID> {
 }
