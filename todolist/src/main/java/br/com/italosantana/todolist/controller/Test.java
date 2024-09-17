@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/primeiraRota")
+@RequestMapping("/test")
 @Tag(name = "controller-test", description = "Testar a aplicação")
-public class MinhaPrimeiraController {
+public class Test {
 
 /* Métodos de acesso do HTTP
 * GET - Buscar informação
