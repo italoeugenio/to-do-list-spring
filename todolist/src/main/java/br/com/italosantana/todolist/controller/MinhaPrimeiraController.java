@@ -1,11 +1,13 @@
 package br.com.italosantana.todolist.controller;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/primeiraRota")
+@Tag(name = "controller-test", description = "Testar a aplicação")
 public class MinhaPrimeiraController {
 
 /* Métodos de acesso do HTTP
